@@ -1,0 +1,2 @@
+# NewDevice
+for new devices
