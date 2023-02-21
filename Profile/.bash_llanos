@@ -1,0 +1,13 @@
+#custom scripts
+alias kstart="/home/llanos/.llanos_scripts/kstart.sh"
+alias kreset="/home/llanos/.llanos_scripts/kreset.sh"
+#terraform related
+alias tf=terraform
+
+#kubectl related
+source <(kubectl completion bash)
+alias k=kubectl
+complete -o default -F __start_kubectl k
+
+#python related
+alias python=python3
